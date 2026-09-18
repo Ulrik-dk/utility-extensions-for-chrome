@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Summary",
+  "version": "1.0.0",
+  "description": "Copies the current YouTube video's subtitles, with a brief-summary prompt, to your clipboard and opens a fresh Claude or ChatGPT tab to paste them into.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "clipboardWrite", "scripting"]
+}
